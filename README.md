@@ -107,10 +107,6 @@ Developer
 ---------
 * [Soisy](http://www.soisy.it)
 
-Licence
--------
-[OSL - Open Software Licence 3.0](http://opensource.org/licenses/osl-3.0.php)
-
 Copyright
 ---------
 (c) 2021 Soisy
