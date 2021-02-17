@@ -1,0 +1,40 @@
+<?php if ($block->canShow()): ?>
+    <div class="checkout-success soisy-button">
+        <div class="success-messages">
+            <img src="<?php echo $this->getViewFileUrl('Soisy_PaymentMethod::images/soisy_logo_complete.png'); ?>" />
+            <p class="title"><?= __("Complete payment with Soisy:") ?></p>
+            <p style="display: flex; align-items:center;">
+                <img src="<?php echo $this->getViewFileUrl('Soisy_PaymentMethod::images/loading.gif'); ?>" height="40" width="40" style="float: left; margin-right: 15px" />
+                <span><?= __("You will be redirected to Soisy website in 5 seconds. If not work, click on the below button.") ?></span>
+            </p>
+        </div>
+
+        <div class="actions-toolbar">
+            <div class="primary">
+                <a class="action primary continue" href="<?= $block->getLink() ?>"><span><?= __("go to soisy") ?></span></a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .checkout-success.soisy-button {
+            padding: 20px;
+            border: 3px dashed #688AA0;
+        }
+        .checkout-success:not(.soisy-button) .actions-toolbar{
+            display: none;
+        }
+        #subscribe-to-newsletter {
+            display: none;
+        }
+    </style>
+    <script>
+        require(['jquery'], function($){
+            $(window).load(function() {
+                window.setTimeout(function(){
+                    window.location.href = "<?= $block->getLink() ?>";
+                }, 5000);
+            });
+        });
+    </script>
+<?php endif; ?>
