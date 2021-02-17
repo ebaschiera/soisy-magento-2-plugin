@@ -6,8 +6,6 @@ Facts
 -----
 - version: 1.0.0
 - extension key: Soisy_PaymentMethod
-- [extension on GitHub](https://github.com/soisy/magento2-soisy-payment-method)
-- [direct download link](https://github.com/soisy/magento2-soisy-payment-method/archive/1.0.0.tar.gz)
 
 Description
 -----------
