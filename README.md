@@ -30,7 +30,7 @@ Installation Instructions
 
 1) Installation options:
 
-* modman: `modman clone git@github.com:soisy/magento2-soisy-payment-method.git` 
+* modman: `modman clone git@github.com:soisy/magento-2-plugin` 
 
 * maual: copy all the files into your magento root, /app/code/Soisy/PaymentMethod.
 
