@@ -27,8 +27,7 @@ class GetSimulation
         $html = '<soisy-loan-quote ' .
             'shop-id="' . $this->settings->getShopId(true) . '" ' .
             'amount="' . $amount . '" ' .
-            'instalments="' . $this->settings->getPromotionalRates() . '" ' .
-            'zero-interest-rate="0"></soisy-loan-quote>' .
+            'instalments="' . $this->settings->getPromotionalRates() . '"></soisy-loan-quote>' .
             '<script src="https://cdn.soisy.it/loan-quote-widget.js" async defer></script>';
         return $html;
     }

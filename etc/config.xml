@@ -8,7 +8,7 @@
                 <sandbox>1</sandbox>
                 <order_status>pending</order_status>
                 <title></title>
-                <min_order_total>250</min_order_total>
+                <min_order_total>100</min_order_total>
                 <max_order_total>15000</max_order_total>
                 <instructions></instructions>
                 <show_simulation>1</show_simulation>
