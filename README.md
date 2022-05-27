@@ -26,13 +26,18 @@ The module should be compatible also with magento 2 >= 2.3.0
 Installation Instructions
 -------------------------
 
-1) Installation options:
+Installation:
 
-* modman: `modman clone git@github.com:soisy/magento-2-plugin` 
+manual copy all the files into your magento root, /app/code/Soisy/PaymentMethod.
+Clear the cache, logout from the admin panel and then login again.
 
-* maual: copy all the files into your magento root, /app/code/Soisy/PaymentMethod.
+Go to System -> Tools -> Web Setup Wizard, in Module Manager and check "Enable" on Soisy_PaymentMethod.
 
-2) Clear the cache, logout from the admin panel and then login again.
+Execute the follow command:
+
+php bin\magento setup:static-content:deploy -f
+php bin\magento cache:clean
+php bin\magento cache:flush
 
 Configuration
 -------------
