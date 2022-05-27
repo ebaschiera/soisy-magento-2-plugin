@@ -13,7 +13,7 @@
                 <instructions></instructions>
                 <show_simulation>1</show_simulation>
                 <promotional_rates>12</promotional_rates>
-                <zero_interest_rate>1</zero_interest_rate>                
+                <zero_interest_rate>0</zero_interest_rate>                
                 <allowspecific>0</allowspecific>
                 <group>offline</group>
             </soisy>
