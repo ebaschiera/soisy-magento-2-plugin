@@ -2,7 +2,7 @@
   "name": "soisy/magento2-payment-method",
   "description": "Create Soisy payment method in your Magento2 online shop",
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": [
     "MPL-2.0"
   ],
