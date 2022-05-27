@@ -42,7 +42,7 @@ Installation:
 
 Configuration
 -------------
-Configure and activate the extension under Stores -> Sales -> Payment Methods
+Configure and activate the extension under Stores -> Configuration -> Sales -> Payment Methods
 
 
 ![Settings](view/frontend/web/images/readme/settings.png)
