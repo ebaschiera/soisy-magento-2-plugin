@@ -62,6 +62,11 @@
                         <field id="*/*/show_simulation">1</field>
                     </depends>
                 </field>
+                <field id="zero_interest_rate" translate="label" type="select" sortOrder="204" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
+                    <label>Zero interest rate</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Zero interest rate</comment>
+                </field>             
                 <field id="sort_order" translate="label" type="text" sortOrder="900" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Sort Order</label>
                     <frontend_class>validate-number</frontend_class>

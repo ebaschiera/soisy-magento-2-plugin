@@ -4,7 +4,7 @@ Magento 2.3.x, 2.4.x Soisy's installment payment method
 
 Facts
 -----
-- version: 1.0.0
+- version: 1.1.0
 - extension key: Soisy_PaymentMethod
 
 Description
@@ -26,20 +26,27 @@ The module should be compatible also with magento 2 >= 2.3.0
 Installation Instructions
 -------------------------
 
-* manual copy all the files into your magento root, /app/code/Soisy/PaymentMethod.
+### Installation:
+
+1) Manual copy all the files into your magento `root/app/code/Soisy/PaymentMethod`.
+
+    (If you don't have this folder please create it)
 
 2) Clear the cache, logout from the admin panel and then login again.
 
 3) Go to System -> Tools -> Web Setup Wizard, in Module Manager and check "Enable" on Soisy_PaymentMethod.
 
-4) Execute the follow command:
-* php bin\magento setup:static-content:deploy -f
-* php bin\magento cache:clean
-* php bin\magento cache:flush
+### Optional: 
+Execute the follow command:
+1) php bin\magento setup:static-content:deploy -f
+2) php bin\magento cache:clean
+3) php bin\magento cache:flush
+
 
 Configuration
 -------------
-Configure and activate the extension under System - Configuration - Sales - Payment methods.
+Configure and activate the extension under Stores -> Configuration -> Sales -> Payment Methods
+
 
 ![Settings](view/frontend/web/images/readme/settings.png)
 
@@ -109,4 +116,4 @@ Developer
 
 Copyright
 ---------
-(c) 2021 Soisy
+(c) 2022 Soisy

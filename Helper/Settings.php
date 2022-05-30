@@ -113,6 +113,11 @@ class Settings extends AbstractHelper
         return $this->getSettings('promotional_rates');
     }
 
+    public function getZeroInterestRate()
+    {
+        return $this->getSettings('zero_interest_rate');
+    }
+
     protected function getCmsUrl($urlString)
     {
         return $urlString ? $this->cmsHelper->getPageUrl($urlString) : $this->storeManager->getStore()->getBaseUrl();
