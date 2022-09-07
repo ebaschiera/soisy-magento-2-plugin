@@ -17,11 +17,8 @@ Requirements
 
 Compatibility
 -------------
-Tested on:
-
 - Magento  2.3.0 - 2.3.2 - 2.3.4 - 2.3.6 - 2.4.0 - 2.4.1 (with php 7.3)
 
-The module should be compatible also with magento 2 >= 2.3.0
 
 Installation Instructions
 -------------------------
