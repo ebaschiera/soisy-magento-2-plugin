@@ -39,9 +39,9 @@ class SoisySuccess extends Template
 
     public function __construct(
         Template\Context $context,
-        array $data = [],
         CheckoutSession $checkoutSession,
-        Settings $settings
+        Settings $settings,
+        array $data = []
     ) {
         parent::__construct($context, $data);
         $this->_checkoutSession = $checkoutSession;
